@@ -1,8 +1,8 @@
 //
 //  huge.cpp
 //
-//
 //  Created by 张力翔 on 2018/9/4.
+//  Modified by beomseok on 2019/5/1.
 //
 #include <stdio.h>
 #include <string.h>
@@ -236,7 +236,7 @@ void simplx(double **a, int m, int n, int m1, int m2, int m3, int *icase,
 //simplex.c
 extern void simplx(double **, int, int, int, int, int, int *, int *, int *);
 
-int VERSION2=0;
+int VERSION2=1;
 
 
 
@@ -1312,5 +1312,9 @@ void AveConfset(CLink **clist2, int numcls, int *nsamples, float alpha, int **co
     }
 
 }
+
+
+
+
 
 
